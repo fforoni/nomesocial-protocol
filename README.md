@@ -4,7 +4,7 @@
 
 **Your digital identity on the new internet. Verified by Brazil.**
 
-[Landing Page (coming soon)](nomesocial.org) - [Whitepaper (coming soon)](nomesocial.org/whitepaper)
+[Landing Page (coming soon)](https://nomesocial.org) - [Whitepaper (coming soon)](https://nomesocial.org/whitepaper)
 
 ## Vision
 
@@ -36,7 +36,7 @@ We are in the early stages of formalizing the project. The best place to contrib
 
 **Sua identidade digital na nova internet. Verificada pelo Brasil.**
 
-[Landing Page (em breve)](nomesocial.org) - [Whitepaper (em breve)](nomesocial.org/whitepaper)
+[Landing Page (em breve)](https://nomesocial.org) - [Whitepaper (em breve)](https://nomesocial.org/whitepaper)
 
 ## Visão
 
