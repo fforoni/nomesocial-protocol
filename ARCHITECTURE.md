@@ -5,7 +5,7 @@ This document describes the data flow and interaction between the components of 
 ## Flow Diagram
 
 
-
+```
 [User at Frontend] --(1. Requests Name)--> [Backend]
 ^ |
 | | (2. Generates PIX QR Code)
@@ -24,7 +24,7 @@ This document describes the data flow and interaction between the components of 
 +--> [SBT Contract: Mints the SBT]
 |
 +--> [NameKit Registrar: Registers user.nomes.eth]
-
+```
 
 
 ## Component Details
@@ -57,7 +57,7 @@ Este documento descreve o fluxo de dados e a interação entre os componentes do
 ## Diagrama de Fluxo
 
 
-
+```
 [Usuário no Frontend] --(1. Solicita Nome)--> [Backend]
 ^ |
 | | (2. Gera QR Code PIX)
@@ -76,7 +76,7 @@ Este documento descreve o fluxo de dados e a interação entre os componentes do
 +--> [SBT Contract: Minta o SBT]
 |
 +--> [NameKit Registrar: Registra usuario.nomes.eth]
-
+```
 
 
 ## Detalhes dos Componentes
