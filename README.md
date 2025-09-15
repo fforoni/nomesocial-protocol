@@ -20,6 +20,14 @@ The protocol utilizes a three-component architecture to ensure security and scal
 
 See our detailed technical architecture in [`ARCHITECTURE.md`](./ARCHITECTURE.md).
 
+## Protocol Assets
+
+* **`nome.social`**: The primary brand and future home of the user-facing application.
+* **`nomesocial.org`**: The organizational website, home to the Whitepaper and official project documentation.
+* **`nomes.eth`**: The ENS parent domain for issuing all user subdomains in the MVP.
+* **`nome.eth`**: The premium brand asset. Already under our control, its perpetual renewal is a strategic objective for the DAO.
+* **`brazildao.org`**: The future home of the verified community and governance portal.
+
 ## Project Status
 
 This project is under active development. We intend to submit a grant proposal to the **ENS Ecosystem Working Group** to accelerate the MVP construction, perform security audits, and launch on mainnet in Q1 2026.
@@ -51,6 +59,14 @@ O protocolo utiliza uma arquitetura de três componentes principais para garanti
 3.  **Frontend (Next.js):** A interface web para o usuário se registrar e gerenciar sua identidade.
 
 Veja nossa arquitetura técnica detalhada em [`ARCHITECTURE.md`](./ARCHITECTURE.md).
+
+## Ativos do Protocolo
+
+* **`nome.social`**: A marca principal e futuro site da aplicação para o usuário.
+* **`nomesocial.org`**: O site da organização, onde ficarão o Whitepaper e a documentação oficial do projeto.
+* **`nomes.eth`**: O domínio pai na ENS para a emissão de todos os subdomínios dos usuários no MVP.
+* **`nome.eth`**: O ativo de marca premium. Já está sob nosso controle, e sua renovação perpétua é um objetivo estratégico para a DAO.
+* **`brazildao.org`**: O futuro portal da comunidade verificada e da governança.
 
 ## Status do Projeto
 
