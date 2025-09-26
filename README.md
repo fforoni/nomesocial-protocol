@@ -1,77 +1,100 @@
 # nome.social 🇧🇷 (en)
 
-*Sovereign identity layer for Brazil with ENS, enabling Proof of Humanity via the PIX payment system.*
+*A Sovereign Identity Protocol for Brazil on the ENSv2 Stack.*
 
 **Your digital identity on the new internet. Verified by Brazil.**
 
-[Landing Page (coming soon)](https://nomesocial.org) - [Whitepaper (coming soon)](https://nomesocial.org/whitepaper)
+[Website (In Progress)] - [Read the Whitepaper](./whitepaper.pdf) - [View the Architecture](./ARCHITECTURE.md)
 
 ## Vision
 
-Our mission is to establish the decentralized identity standard for Brazil by onboarding millions of users to the ENS ecosystem through a solution that integrates, rather than extracts. We build a bridge between Brazil's trusted financial infrastructure and the future of Web3.
+`nome.social` is an open-source protocol to establish a sovereign, Sybil-resistant identity layer for Brazil. Our mission is to onboard millions of users to the ENS ecosystem through a solution that **integrates** with trusted local infrastructure (PIX), rather than extracting sensitive user data.
 
 ## Architecture
 
-The protocol utilizes a three-component architecture to ensure security and scalability, built on **Base (L2)**:
-
-1.  **On-Chain Infrastructure:** Subdomain registrar contracts based on the battle-tested [NameKit.io](https://www.namekit.io/) and a contract for the verification Soulbound Token (SBT).
-2.  **Backend (Node.js):** A server that listens for webhooks from the PIX API, validates the uniqueness of the CPF, and securely triggers the on-chain transactions.
-3.  **Frontend (Next.js):** The web interface for the user to register and manage their identity.
-
-See our detailed technical architecture in [`ARCHITECTURE.md`](./ARCHITECTURE.md).
-
-## Protocol Assets
-
-* **`nome.social`**: The primary brand and future home of the user-facing application.
-* **`nomesocial.org`**: The organizational website, home to the Whitepaper and official project documentation.
-* **`nomes.eth`**: The ENS parent domain for issuing all user subdomains in the MVP.
-* **`nome.eth`**: The premium brand asset. Already under our control, its perpetual renewal is a strategic objective for the DAO.
-* **`brazildao.org`**: The future home of the verified community and governance portal.
+We are building a best-in-class application by leveraging the professional, open-source infrastructure being developed for ENSv2 by key ecosystem builders like **NameHash Labs**. We use **ENS.node** for infrastructure, **NameKit** for registrars, and **NameGuard** for security. This allows us to focus 100% on our unique moat: the integration with the PIX payment system for Proof of Humanity.
 
 ## Project Status
 
-This project is under active development. We intend to submit a grant proposal to the **ENS Ecosystem Working Group** to accelerate the MVP construction, perform security audits, and launch on mainnet in Q1 2026.
+This project is under active development. Our goal is to present a functional MVP at the **ETHLatam Hackathon by ETH Samba (Nov 2025)**. This will serve as our "proof of work" before seeking community funding.
 
 ## Contributing
 
-We are in the early stages of formalizing the project. The best place to contribute right now is by reading our Whitepaper and participating in the upcoming discussion on the ENS DAO Forum.
+We are in the early stages. The best way to contribute is by reviewing our [Whitepaper](./whitepaper.pdf) and our [Architecture](./ARCHITECTURE.md) and providing feedback via GitHub Issues.
 
 ---
 
 # nome.social 🇧🇷 (pt-br)
 
-*Camada de identidade soberana para o Brasil com a ENS, habilitando a Prova de Humanidade através do PIX.*
+*Um Protocolo de Identidade Soberana para o Brasil no Stack ENSv2.*
 
 **Sua identidade digital na nova internet. Verificada pelo Brasil.**
 
-[Landing Page (em breve)](https://nomesocial.org) - [Whitepaper (em breve)](https://nomesocial.org/whitepaper)
+[Site (Em desenvolvimento)] - [Leia o Whitepaper](./whitepaper.pdf) - [Veja a Arquitetura](./ARCHITECTURE.md)
 
 ## Visão
 
-Nossa missão é estabelecer o padrão de identidade descentralizada para o Brasil, onboardando milhões de usuários para o ecossistema ENS através de uma solução que integra, em vez de extrair. Construímos uma ponte entre a infraestrutura financeira confiável do Brasil e o futuro da Web3.
+O `nome.social` é um protocolo de código aberto para estabelecer uma camada de identidade soberana e resistente a ataques Sybil para o Brasil. Nossa missão é acolher milhões de usuários para o ecossistema ENS e, consequentemente, para a Web3, através de uma solução que se **integra** com uma infraestrutura local confiável (PIX), em vez de extrair dados sensíveis do usuário.
 
 ## Arquitetura
 
-O protocolo utiliza uma arquitetura de três componentes principais para garantir segurança e escalabilidade, construído sobre a **Base (L2)**:
-
-1.  **Infraestrutura On-Chain:** Contratos de subdomínio baseados no [NameKit.io](https://www.namekit.io/) e um contrato para o Soulbound Token (SBT) de verificação.
-2.  **Backend (Node.js):** Um servidor que escuta webhooks da API PIX, valida a unicidade do CPF e aciona as transações on-chain de forma segura.
-3.  **Frontend (Next.js):** A interface web para o usuário se registrar e gerenciar sua identidade.
-
-Veja nossa arquitetura técnica detalhada em [`ARCHITECTURE.md`](./ARCHITECTURE.md).
-
-## Ativos do Protocolo
-
-* **`nome.social`**: A marca principal e futuro site da aplicação para o usuário.
-* **`nomesocial.org`**: O site da organização, onde ficarão o Whitepaper e a documentação oficial do projeto.
-* **`nomes.eth`**: O domínio pai na ENS para a emissão de todos os subdomínios dos usuários no MVP.
-* **`nome.eth`**: O ativo de marca premium. Já está sob nosso controle, e sua renovação perpétua é um objetivo estratégico para a DAO.
-* **`brazildao.org`**: O futuro portal da comunidade verificada e da governança.
+Estamos construindo uma aplicação de ponta que alavanca a infraestrutura profissional e de código aberto desenvolvida para a ENSv2 por construtores chave do ecossistema como a **NameHash Labs**. Usamos **ENS.node** para infraestrutura, **NameKit** para registradores e **NameGuard** para segurança. Isso nos permite focar 100% em nosso fosso competitivo único: a integração com o sistema de pagamentos PIX para Prova de Humanidade.
 
 ## Status do Projeto
 
-Este projeto está em desenvolvimento ativo. Nossa intenção é submeter uma proposta de grant para o **ENS Ecosystem Working Group** para acelerar a construção do MVP, realizar auditorias de segurança e lançar em mainnet no Q1 2026.
+Este projeto está em desenvolvimento ativo. Nosso objetivo é apresentar um MVP funcional no **Hackathon da ETH Samba na ETHLatam (Nov 2025)**. Isso servirá como nossa "prova de trabalho" antes de buscarmos financiamento da comunidade.
 
 ## Contribuindo
 
-Estamos no estágio inicial de formalização do projeto. O melhor lugar para contribuir no momento é lendo nosso Whitepaper e participando da futura discussão no Fórum da ENS DAO.
+Estamos nos estágios iniciais. A melhor forma de contribuir é revisando nosso [Whitepaper](./whitepaper.pdf) e nossa [Arquitetura](./ARCHITECTURE.md) e fornecendo feedback através das Issues do GitHub.
+
+
+# nome.social 🇧🇷 (en)
+
+*A Sovereign Identity Protocol for Brazil on the ENSv2 Stack.*
+
+**Your digital identity on the new internet. Verified by Brazil.**
+
+[Website (In Progress)] - [Read the Whitepaper](./whitepaper.pdf) - [View the Architecture](./ARCHITECTURE.md)
+
+## Vision
+
+`nome.social` is an open-source protocol to establish a sovereign, Sybil-resistant identity layer for Brazil. Our mission is to **welcome** millions of users to the ENS ecosystem, **and consequently to Web3**, through a solution that **integrates** with trusted local infrastructure, rather than extracting sensitive user data.
+
+## Architecture
+
+We are building a best-in-class application by leveraging the professional, open-source infrastructure being developed for ENSv2 by key ecosystem builders like **NameHash Labs**. We use **ENS.node** for infrastructure, **NameKit** for registrars, and **NameGuard** for security. This allows us to focus 100% on our unique moat: the integration with the PIX payment system for Proof of Humanity.
+
+## Project Status
+
+This project is under active development. Our goal is to present a functional MVP at the **ETH Samba Hackathon at ETHLatam (Nov 2025)**. This will serve as our "proof of work" before seeking community funding.
+
+## Contributing
+
+We are in the early stages. The best way to contribute is by reviewing our [Whitepaper](./whitepaper.pdf) and our [Architecture](./ARCHITECTURE.md) and providing feedback via GitHub Issues.
+
+---
+
+# nome.social 🇧🇷 (pt-br)
+
+*Um Protocolo de Identidade Soberana para o Brasil no Stack ENSv2.*
+
+**Sua identidade digital na nova internet. Verificada pelo Brasil.**
+
+[Site (Em desenvolvimento)] - [Leia o Whitepaper](./whitepaper.pdf) - [Veja a Arquitetura](./ARCHITECTURE.md)
+
+## Visão
+
+O `nome.social` é um protocolo de código aberto para estabelecer uma camada de identidade soberana e resistente a ataques Sybil para o Brasil. Nossa missão é acolher milhões de usuários para o ecossistema ENS e, consequentemente, para a Web3, através de uma solução que se **integra** com uma infraestrutura local confiável, em vez de extrair dados sensíveis do usuário.
+
+## Arquitetura
+
+Estamos construindo uma aplicação de ponta que alavanca a infraestrutura profissional e de código aberto desenvolvida para a ENSv2 por construtores chave do ecossistema como a **NameHash Labs**. Usamos **ENS.node** para infraestrutura, **NameKit** para registradores e **NameGuard** para segurança. Isso nos permite focar 100% em nosso fosso competitivo único: a integração com o sistema de pagamentos PIX para Prova de Humanidade.
+
+## Status do Projeto
+
+Este projeto está em desenvolvimento ativo. Nosso objetivo é apresentar um MVP funcional no **Hackathon da ETH Samba na ETHLatam (Nov 2025)**. Isso servirá como nossa "prova de trabalho" antes de buscarmos financiamento da comunidade.
+
+## Contribuindo
+
+Estamos nos estágios iniciais. A melhor forma de contribuir é revisando nosso [Whitepaper](./whitepaper.pdf) e nossa [Arquitetura](./ARCHITECTURE.md) e fornecendo feedback através das Issues do GitHub.
