@@ -3,7 +3,7 @@
 This document describes the data flow and interaction between the components of the `nome.social` protocol. Our architecture leverages a professional, third-party stack to de-risk execution and focus on our core innovation.
 
 ## Flow Diagram
-
+```
 [User at Frontend] --(1. Requests Name)--> [Backend]
 ^                                         |
 |                                         | (2. Generates PIX QR Code)
@@ -22,7 +22,7 @@ This document describes the data flow and interaction between the components of 
 +--> [EAS Contract: Creates Attestation]
 |
 +--> [NameKit Registrar: Registers user.nomes.eth]
-
+```
 
 ## Component Details
 
@@ -53,6 +53,7 @@ Este documento descreve o fluxo de dados e a interação entre os componentes do
 
 ## Diagrama de Fluxo
 
+```
 [Usuário no Frontend] --(1. Solicita Nome)--> [Backend]
 ^                                            |
 |                                            | (2. Gera QR Code PIX)
@@ -71,7 +72,7 @@ Este documento descreve o fluxo de dados e a interação entre os componentes do
 +--> [Contrato EAS: Cria Atestação]
 |
 +--> [Registrador NameKit: Registra usuario.nomes.eth]
-
+```
 
 ## Detalhes dos Componentes
 
